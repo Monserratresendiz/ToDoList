@@ -29,4 +29,4 @@ const ActivitySchema = new Schema <IActivities>({
     },
 },{timestamps: true});
 
-export const IActivities = model<IActivities>('activities', ActivitySchema);
+export const ActivityModel = model<IActivities>('activities', ActivitySchema);
