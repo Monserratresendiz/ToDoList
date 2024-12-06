@@ -13,8 +13,10 @@ async function main() {
             console.log("Servidor corriendo con exito")
         })
     }  catch (error){
-        console.log("Ocurrio un error al inicializar la aplicacion")
+        console.log("Ocurrio un error al inicializar la aplicacion") 
     }
+    
+
     
 }
 main();
